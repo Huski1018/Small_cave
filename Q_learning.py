@@ -156,7 +156,7 @@ class map:
         accumulate=accumulate+reward
 
 
-        return Done,(reward*prob),nextstate,accumulate,state,
+        return Done,(reward*prob),nextstate,accumulate,state
     
 
 
